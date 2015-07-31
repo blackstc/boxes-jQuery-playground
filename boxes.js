@@ -11,5 +11,13 @@ $(document).ready(function() {
   // $('div').not(".row").not("#container").not("#secretBox").css("width", "2px");
 
 //Solutions for exercise 3
+  $('#container').on("click", function(x) {
+    var offset = $(this).offset();
+    var relativeX = (x.pageX - offset.left);
+    var relativeY = (x.pageY - offset.top);
+
+    console.log('X: ' + relativeX + " Y: " + relativeY);
+
+  });
 
 });
