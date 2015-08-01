@@ -42,3 +42,8 @@
 .boxType3 {
   background: blue;
 }
+
+img {
+  width: 90%;
+  height: 90%;
+}
